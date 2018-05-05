@@ -24,7 +24,7 @@ async def generate(ctx):
 
     url = 'https://etechgen.000webhostapp.com/generate.php'+"?creds="+randomAlt
     print(url)
-    shortener = Shortener('Adfly', uid='19438260', key='accfe95d6a62293fddf00a032294f697')
+    shortener = Shortener('Adfly', uid='', key='')
     shortUrl = shortener.short(url)
     
     msg = "Hey, go generate your alt here: "+shortUrl
