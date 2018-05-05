@@ -8,7 +8,7 @@ from discord.ext.commands import Bot
 from pyshorteners import Shortener
 
 
-TOKEN = 'NDM3MzU2NzQ5MTk3MDE3MTEx.Dcu3xg.9i8UdCH1iGFpmckK3ihc5WgtBK8'
+TOKEN = ''
 client = Bot(command_prefix="!")
 
 
